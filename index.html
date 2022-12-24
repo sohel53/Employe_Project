@@ -8,28 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h4>Filter Ui Cards Via there Profession</h4>
-    <select id="dropdown" name="dropdown">
-        <option disabled selected value="profession">Profession</option>
-        <option value="developer">Developer</option>
-        <option value="admin">Admin</option>
-    </select> <br>
-    <div id="result"></div>
+    <div id="main">
+        <h4 id="title">Filter Ui Cards Via there Profession</h4>
+        <select id="dropdown" name="dropdown">
+            <option disabled selected value="profession">Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select> <br>
+        <div id="result"></div>
+    
+        <br>
+        <button id="filterbtn" type="button">Filter</button><br><br>
+    
+        <div id="input">
+            <h4>Add a new user</h4>
+            <label for="Name">Enter Name</label><br>
+            <input type="text" id="Name-input">
+            <label for="Profession">Enter Professsion</label>
+            <input type="text" id="Profession-input">
+            <label for="age">Enter Age</label>
+            <input type="text" id="Age-input"><br><br>
+    
+            <button type="button" id="submitbtn">Submit</button>
+        </div>
 
-    <br>
-    <button id="filterbtn" type="button">Filter</button><br><br>
-
-    <div id="input">
-        <h4>Add a new user</h4>
-        <label for="Name">Enter Name</label><br>
-        <input type="text" id="Name-input">
-        <label for="Profession">Enter Professsion</label>
-        <input type="text" id="Profession-input">
-        <label for="age">Enter Age</label>
-        <input type="text" id="Age-input"><br><br>
-
-        <button type="button" id="submitbtn">Submit</button>
     </div>
+   
 
     <script src="script.js"></script>
 </body>
